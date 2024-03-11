@@ -1,0 +1,394 @@
+@charset "EUC-KR";
+.clear{
+	clear: both;
+}
+
+/* 기본 설정: 페이지 전체 */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header, section {
+    background-color: rgba(77, 165, 124, 1);
+}
+
+html, body {
+
+	height : 100%;
+	margin : 0;
+	padding : 0;
+}
+
+
+
+.header_container {
+    display: flex;
+    align-items: center;
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    height : 100px;
+}
+
+.logo_container {
+    display: block;
+    margin: 5px 10px;
+}
+
+.logo_container a {
+    font-size: 40px;
+    font-weight: 500;
+    text-decoration: none;
+    text-align: center;
+    font-weight : bold;
+    color: rgba(255, 255, 255, 1);
+}
+
+.nav_container {
+	margin-top : 30px;
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.menu_container {
+    align-content: flex-start;
+    margin-left: 10px;
+
+}
+
+.menu_container .menu, .login, .member{
+    list-style: none;
+    display: flex;
+}
+
+.cbt{
+	list-style: none;
+    display: flex;
+	align-content: flex-start;
+    margin-left: 270px;
+}
+
+.subject{
+    margin-left: 285px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.menu_title {
+    display: block;
+    margin: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+}
+
+.menu_index {
+    display: block;
+    margin: 10px 0;
+    padding: 0 15px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+}
+
+.cbt_menu{
+	display: block;
+    margin: 0 auto;
+    padding: 0 15px;
+    text-decoration: none;
+    text-size : 100px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.menu_1, .menu_2, .menu_3 {
+    display: block;
+    cursor: pointer;
+}
+
+.menu_1_content, .menu_2_content, .menu_3_content {
+    display: none;
+    list-style: none;
+    font-size: 15px;
+    position: absolute;
+    z-index: 10;
+    border-radius: 5px;
+    background-color: rgba(77, 165, 124, 1);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.4);
+}
+
+.login_container {
+    align-content: flex-end;
+    margin-right: 10px;
+    
+}
+
+.timeSet{
+	display: block;
+	margin-right : 20px;
+    text-decoration: none;
+    text-size : 100px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.left_time{
+	display: block;
+	margin-left : 80px;
+    text-decoration: none;
+    text-size : 100px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.member_container {
+	align-content: flex-end;
+    margin-right: 10px;
+}
+
+.cbt_container{
+	align-content: flex-end;
+	margin-left : 200px;
+}
+
+.footer_container {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    display: block;
+    cursor: default;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(77, 165, 124, 1);
+}
+
+
+
+.footer_container .footA {
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.footer_container .footB {
+    font-size: 15px;
+}
+
+.logout{
+	background-color: rgba(77, 165, 124, 1);
+    margin: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+    border: 0;
+  	background-color: transparent;
+}
+
+.left{
+	    width: 50%;
+        float: left;
+        box-sizing: border-box;
+        background: rgb(255, 255, 255);
+        height: 750px;
+        border-left: 5px solid rgb(255, 255, 255);
+        border-bottom: 5px solid rgb(255, 255, 255);
+        border-top: 5px solid rgb(255, 255, 255);
+        border-right: 2.5px solid rgb(255, 255, 255);
+        border-color : rgba(0,0,0,1);
+}
+
+.right{
+       width: 50%;
+       float: left;
+       box-sizing: border-box;
+       background: rgb(255, 255, 255);
+       height: 750px;
+       border-right: 5px solid rgb(255, 255, 255);
+       border-bottom: 5px solid rgb(255, 255, 255);
+       border-top: 5px solid rgb(255, 255, 255);
+       border-left: 2.5px solid rgb(255, 255, 255);
+       border-color : rgba(0,0,0,1);
+}
+iframe{
+	float:left;
+	width: 79.99%;
+	background: rgb(255, 255, 255);
+    height: 820px;
+    border: none;
+
+}
+
+.answer{
+	   width: 20%;
+       float: right;
+       box-sizing: border-box;
+       background: rgb(255, 255, 255);
+       height: 750px;
+       border-right: 5px solid rgb(255, 255, 255);
+       border-bottom: 5px solid rgb(255, 255, 255);
+       border-top: 5px solid rgb(255, 255, 255);
+       border-left: 5px solid rgb(255, 255, 255);
+       border-color : rgba(0,0,0,1);
+}
+
+.btn1{
+	font-size: 15px;
+	margin-top : 15px;
+	margin-right : 30px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 1);
+    border: none;
+    cursor: pointer;
+    color : rgba(0, 0, 0, 1);
+    font-weight : bold;
+    border-radius : 15px;
+}
+
+.btn2{
+	font-size: 15px;
+	margin-top : 15px;
+	margin-left : 30px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 1);
+    border: none;
+    cursor: pointer;
+    color : rgba(0, 0, 0, 1);
+    font-weight : bold;
+    border-radius : 15px;
+}
+
+.btn3{
+	font-size: 15px;
+	margin-top : 15px;
+	margin-right : 130px;
+    padding: 10px;
+    background-color: rgba(77, 165, 124, 1);
+    border: none;
+    cursor: pointer;
+    color : rgba(255, 255, 255, 1);
+    font-weight : bold;
+    border-radius : 15px;
+    float : right;
+}
+
+.answer{
+	overflow : auto;
+}
+
+.answer_select {
+    padding: 15px 15px;
+}
+
+/* 기존 라디오버튼 안보이게하기 */
+.answer_select input[type=radio]{
+    display: none;
+}
+
+.answer_select input[type=radio]+label{
+    display: inline-block;
+    cursor: pointer;
+    height: 23px;
+    width: 23px;
+    border: 1px solid #333;
+    line-height: 24px;
+    text-align: center;
+    font-weight:bold;
+    font-size:13px;
+    border-radius: 20px;
+    margin-top : 10px;
+}
+.answer_select input[type=radio]+label{
+    background-color: #fff;
+    color: #333;
+}
+.answer_select input[type=radio]:checked+label{
+    background-color: #333;
+    color: #fff;
+}
+
+
+
+.font{
+	font-size : 30px;
+	margin-left : 80px;
+	font-weight : bold;
+}
+
+
+.left{
+   overflow : auto;
+   
+}
+
+.left_container {
+    padding: 15px 15px;
+  
+}
+
+/* 기존 라디오버튼 안보이게하기 */
+.left_container input[type=radio]{
+    display: none;
+}
+
+.left_container input[type=radio]+label{
+    display: inline-block;
+    cursor: pointer;
+    height: 23px;
+    width: 23px;
+    border: 1px solid #333;
+    line-height: 24px;
+    text-align: center;
+    font-weight:bold;
+    font-size:13px;
+    border-radius: 20px;
+    margin-top : 10px;
+}
+.left_container input[type=radio]+label{
+    background-color: #fff;
+    color: #333;
+}
+.left_container input[type=radio]:checked+label{
+    background-color: #333;
+    color: #fff;
+}
+
+
+.right{
+   overflow : auto;
+    text-align: left;
+}
+
+.right_container {
+    padding: 15px 15px;
+    
+}
+
+/* 기존 라디오버튼 안보이게하기 */
+.right_container input[type=radio]{
+    display: none;
+}
+
+.right_container input[type=radio]+label{
+    display: inline-block;
+    cursor: pointer;
+    height: 23px;
+    width: 23px;
+    border: 1px solid #333;
+    line-height: 24px;
+    text-align: center;
+    font-weight:bold;
+    font-size:13px;
+    border-radius: 20px;
+    margin-top : 10px;
+}
+.right_container input[type=radio]+label{
+    background-color: #fff;
+    color: #333;
+}
+.right_container input[type=radio]:checked+label{
+    background-color: #333;
+    color: #fff;
+}
+
+.section_btn{
+	text-align: center;
+	background-color :white;
+}

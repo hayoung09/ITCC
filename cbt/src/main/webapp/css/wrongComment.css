@@ -1,0 +1,192 @@
+/*게시판 */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 10px;
+}
+
+ul,li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.board_wrap{
+    width: 1000px;
+    margin: 100px auto;
+}
+
+.board_title{
+    margin-bottom: 30px;
+}
+
+.board_title strong{
+    font-size: 3rem;
+}
+
+.board_title p{
+    margin-top: 5px;
+    font-size: 2rem;
+}
+
+.bt_wrap{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 0;
+}
+
+.bt_wrap a{
+    display: inline-block;
+    min-width: 80px;
+    margin-left: 10px;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 2px;
+    font-size: 1.4rem;
+}
+
+.bt_wrap a:first-child{
+    margin-left: 0;
+}
+
+.bt_wrap a.on{
+    background-color: #000;
+    color: #fff;
+}
+
+
+/*제목 클릭후 화면*/
+
+.board_view{
+    width: 100%;
+    border: rgba(77, 165, 124, 1) solid 2px;
+}
+
+.board_view .title{
+    padding: 20px 15px;
+    border-bottom: 1px dashed #ddd;
+    font-size: 2rem;
+}
+
+.board_view .cont{
+    padding: 15px;
+
+    line-height: 160%;
+    font-size: 1.4rem;
+}
+
+.board_view .cont button {
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    width: 40px;
+    height: 25px;
+}
+
+.board_view .cont button:hover{
+    background-color: gainsboro; 
+    color: white;
+}
+
+
+.board_view .cont .correct {
+    color: red;
+}
+
+
+.board_view_correct{
+    width: 100%;
+    border: greenyellow solid 1px;
+}
+
+.board_view_correct .title{
+    padding: 20px 15px;
+    border-bottom: 1px dashed #ddd;
+    font-size: 2rem;
+}
+
+.board_view_correct .cont{
+    padding: 15px;
+
+    line-height: 160%;
+    font-size: 1.4rem;
+}
+
+.board_view_correct .cont .correct {
+    color: red;
+}
+
+
+/*메뉴바*/
+*{
+    margin: 0; padding:0; box-sizing: 0;
+}
+*::after,
+*::before{
+    margin: 0; padding: 0; box-sizing: 0;
+}
+ul, ol, li{
+    list-style: none;
+}
+a{
+    text-decoration: none; color: #333;
+}
+
+.inner{width: 1170px; margin: 0 auto; font-size: 16px;}
+
+.header{
+    width: 100%; background-color: white;
+}
+.header .inner{
+    height: 80px;display: flex; justify-content: space-between; align-items: center;
+}
+
+.header .logo a{
+    font: bold 34px '맑은 고딕';
+}
+
+/*header*/
+
+.gnb{
+    display: flex;
+}
+
+.gnb > li > a{
+    display: block; padding: 0 30px; text-align: center; line-height: 50px;
+}
+
+.gnb2{
+    display: flex;
+}
+
+.gnb2 > li > a{
+    display: block; padding: 0 60px; font: bold 18px 'inherit';
+}
+
+.visual {
+    width: 100%; height: 120px; background-color: lightblue;
+}
+.visual .inner{
+    height: 120px;display: flex; justify-content: space-between; align-items: center;
+} 
+
+.board_title .btn {
+	position: absolute;
+	right: 255px;
+	top: 200px;
+	background-color: white;
+	color: black;
+	border: rgba(77, 165, 124, 1) solid 2px;
+	width: 60px;
+  	height: 30px;
+}
+
+.board_title .btn:hover {
+	background-color: rgba(77, 165, 124, 1);
+	color: white;
+}

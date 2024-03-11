@@ -1,0 +1,364 @@
+
+*{margin: 0; padding:0; box-sizing: 0;}
+*::after,
+*::before{margin: 0; padding: 0; box-sizing: 0;}
+ul, ol, li{list-style: none;}
+a{text-decoration: none; color: #333;}
+
+.header{width: 100%; background-color: white;}
+.header .inner{height: 80px;display: flex; justify-content: space-between; align-items: center;}
+.header .logo{}
+.header .logo a{font: bold 34px '맑은 고딕';}
+.header nav{}
+
+.gnb{display: flex;}
+.gnb > li{}
+.gnb > li > a{display: block; padding: 0 30px; text-align: center; line-height: 50px;}
+
+/* 공통 css */
+/*.content{width: 100%; padding: 60px 0; background-color: white;}
+.inner{width: 1170px; margin: 0 auto;}
+.content .title{margin: 0 0 40px; font: bold 30px 'inherit'; text-align: center;}
+.content .wrap{display: flex; justify-content: space-between; flex-wrap: wrap;}
+.content .box{height: 300px; background-color: gainsboro; border: 1px solid black;}*/
+
+
+.visual2{
+    width: 100%; height:50vh;
+    background: url('cbt.jpg') no-repeat;
+    background-size: cover;
+}
+
+/* 개별 css */
+.visual {width: 100%; height: 120px; background-color: lightblue;}
+.visual .inner{height: 120px;display: flex; justify-content: space-between; align-items: center;} 
+
+.gnb2{display: flex;}
+.gnb2 > li{}
+.gnb2 > li > a{display: block; padding: 0 60px; font: bold 18px 'inherit';}
+
+.bestItem .box{width: 370px;}
+
+.newItem .box{width: 370px;}
+
+.gallery .box{width: 270px; margin: 0 0 30px;}
+
+.footer{width: 100%; height: 200px; background-color: black}
+
+/*메인 홈페이지 이미지 슬라이드 시작*/
+
+section.container{
+    margin : 0 auto;
+    width : 90vw; /* 내 상위 크기의 90% 90vw */
+    overflow : hidden;
+    position : relative;
+    height : fit-content;
+}
+
+div.banner{
+    width : 540vw; /* 90% x 6장 = 540vw */
+    transition: transform 1s; /* transform 동작 시 애니메이션 0.5 초*/
+}
+
+div.img{
+    width : 90vw;
+    float : left;
+
+}
+
+div.img img {
+    width : 100%;
+    display : block;
+
+}
+
+div.btns{
+    position : absolute;
+    bottom : 10px;
+    width : 90vw;
+    text-align : center;
+}
+
+div.arrow {
+    position : absolute;
+    width : 35px;
+    background : rgba(255, 255, 255, 1);
+    color : rgba(0, 0, 0, 0);
+    line-height : 45vh;
+    font-size : 2rem;
+    height : 100%;
+    text-align : center;
+    z-index : 1;
+    cursor : pointer;
+}
+
+div.next {
+    right : 0;
+}
+
+/* 슬라이더 효과 끝 */
+
+
+/* 설명 효과 시작 */
+.content{width: 100%; padding: 115px 0;}
+.inner{width: 1170px; margin: 0 auto;}
+.content .title{margin:0 0 20px; text-align: center; font-size : 30px}
+.content .txt{margin:0 0 40px; text-align: center; font-size: 20px;}
+.content .wrap{display: flex; justify-content: space-between; flex-wrap: wrap;}
+
+.service .box{width: 570px;  margin: 0 0 30px; padding: 30px 0 ; display: flex; background-color: #f5f5f5;}
+.service .box .pic{width: 200px; text-align: center;}
+.service .box:nth-of-type(2n + 1) .pic{order: 1; border-left: 1px solid #ccc;}
+.service .box:nth-of-type(2n) .pic{border-right: 1px #ccc solid; }
+.service .box .info{width: calc(100% - 200px); padding: 0 50px;}
+.service .service_title{font-size : 18px;}
+
+.about{padding: 0;}
+.about .inner{width: 100%;}
+.about .wrap{justify-content: flex-start;}
+.about .box{width: 50%;}
+.about .box img{display: block; width: 100%;}
+
+/* 클래스가 .box인 요소 중에서 두번째에 적용*/
+.about .box:nth-of-type(2){width: 570px; padding: 100px 0 100px 100px;} 
+.about .box .title{font: bold 40px 'inherit'; color: navy; text-align: left;}
+.about .box .txt{ color: #666; line-height: 2; text-align: left;}
+.about .box .learn_more{
+    display: block; width: 200px; font: bold 16px/50px 'inherit'; color: #fff;
+    background-color: goldenrod; border-radius: 25px ; text-align: center;
+}
+
+
+.barber .box{width: 370px;}
+.barber .box .pic{width: 100%;}
+.barber .box .info{width: 100%; padding: 30px; text-align: center;}
+.barber .box .info .barber_name{font-weight: bold; color: navy;}
+.barber .box .info .barber_txt{margin: 20px 0; color: #666;}
+.barber .box .info .barber_sns{}
+.barber .box .info .barber_sns a{margin: 0 10px; font-size: 18px; color: goldenrod;}
+
+
+
+.gallery{
+    padding: 250px 0;
+    background : url('./bg-image-3.jpg') no-repeat right top; 
+    background-size: cover; 
+}
+.gallery .box{ width: 50%;}
+.gallery .box .title{font: bold 40px 'inherit'; color: #fff; text-align: left;}
+.gallery .box .txt{ color: #666; line-height: 2; text-align: left;}
+.gallery .box .learn_more{
+    display: block; width: 200px; 
+    font: bold 16px/50px 'inherit'; color: #ddd;
+    background-color: goldenrod; border-radius: 25px ; text-align: center;
+}
+
+
+
+
+
+.testimonials .box{width: 100%;}
+
+.blog{background-color: white;}
+.blog .box{
+    width: 100%; height: 450px;display: flex;
+    background-repeat: no-repeat; background-size: cover;
+}
+.blog .box:nth-of-type(1){background-image: url('./post-bg-2.jpg');}
+.blog .box:nth-of-type(2){background-color: white;}
+.blog .box:nth-of-type(3){background-image: url('./post-bg-1.jpg');}
+
+.blog .box .pic{width: 50%; }
+.blog .box .info{width: 50%; }
+.blog .box:nth-of-type(odd) .info{padding: 80px 0 80px 80px;}
+.blog .box:nth-of-type(even) .info{padding: 80px 80px 80px 0;}
+.blog .box .info .blog_title{font: bold 36px 'inherit'; color: #333;}
+.blog .box .info .blog_txt{margin: 20px 0 40px; line-height: 1.5; color: #666;}
+.blog .box .info .blog_btn{
+    display: block; width: 200px; font: bold 16px/40px 'inherit'; color: #fff;
+    background-color: goldenrod; border-radius: 20px ; text-align: center;
+}
+.blog .box:nth-of-type(odd) .info .blog_title{color: #fff;}
+.blog .box:nth-of-type(odd) .info .blog_txt{color: #ddd;}
+/* 설명 효과 끝 */
+
+
+/* 공지사항 */
+.board_wrap{
+    width: 1150px;
+    margin-top: 0px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.board_title{
+    margin-bottom: 30px;
+}
+
+.board_title strong{
+    font-size: 20px;
+}
+
+.board_title p{
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+.bt_wrap{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 0;
+}
+
+.bt_wrap a{
+    display: inline-block;
+    min-width: 80px;
+    margin-left: 10px;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 2px;
+    font-size: 15px;
+}
+
+.bt_wrap a:first-child{
+    margin-left: 0;
+}
+
+.bt_wrap a.on{
+    background-color: #000;
+    color: #fff;
+}
+
+.board_list{
+    width: 100%;
+    border-top: 2px solid #000;
+}
+
+.board_list > div{
+    border-bottom: 1px solid #ddd;
+    font-size: 0;
+}
+
+.board_list > div.top{
+    border-bottom: 1px solid #999;
+}
+
+.board_list > div:last-child{
+    border-bottom: 1px solid #000;
+}
+
+.board_list > div > div{
+    display: inline-block;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 15px;
+}
+
+.board_list > div.top > div{
+    font-weight: 600;
+}
+
+.board_list .num{
+    width: 10%;
+}
+
+.board_list .title{
+    width: 60%;
+    text-align: left;
+}
+
+.board_list .top .title{
+    text-align: center;
+}
+
+.board_list .writer{
+    width: 10%;
+}
+
+.board_list .date{
+    width: 10%;
+}
+
+.board_list .count{
+    width: 10%;
+}
+/* 공지사항 */
+
+/* Footer */
+.footer {
+    position: relative;
+    width: 100%;
+    min-height: 250px;
+    margin-top: 0px;
+    text-align: left;
+    background-color: #222426
+}
+
+.footer .nav {
+    padding: 31px 96px 0 40px;
+}
+
+.footer .nav li {
+    display: inline-block;
+    font-size : 10px;
+}
+
+.footer .nav li:after {
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 12px;
+    margin: 2px 12px 0;
+    background-color: hsla(0,0%,100%,.2)
+}
+
+.footer .nav li:last-child:after {
+    display: none
+}
+
+.footer .nav a {
+    color: rgba(248,249,250,.7);
+    letter-spacing: -.3px
+}
+
+.footer .nav a:hover {
+    color: #07f
+}
+
+.footer .nav .privacy {
+    font-weight: 700
+}
+
+.footer .nav+.nav {
+    padding: 14px 96px 13px 40px
+}
+
+.footer .address {
+    padding: 16px 96px 0 40px;
+    color: rgba(248,249,250,.3);
+    font-size: 11px;
+    line-height: 17px;
+    letter-spacing: -.3px
+}
+
+.footer .address span {
+    white-space: nowrap
+}
+
+.footer .address a {
+    color: rgba(248,249,250,.3);
+    text-decoration: underline
+}
+
+.footer .address a:hover {
+    color: #07f
+}
+
+.footer .copyright {
+    padding: 0 0 0 40px;
+    color: rgba(248,249,250,.3);
+    font-size: 11px;
+    line-height: 18px;
+    letter-spacing: -.3px
+}
+/* Footer 끝 */

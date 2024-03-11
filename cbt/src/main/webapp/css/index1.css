@@ -1,0 +1,44 @@
+@charset "EUC-KR";
+body{
+	height:900px;
+	position:relative;	
+}
+.container{
+	position:absolute;
+	left:33%;
+	top:40%;
+}
+
+.but1 {
+    height: 180px;
+    width: 300px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 15px;
+    font-size: 20px; 
+    text-align: center;
+}
+    
+.but2 {
+    height:180px;
+    width: 300px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 15px;
+    font-size: 20px; 
+    text-align: center;
+    
+}
+
+.but1:hover {
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+
+}
+
+.but2:hover {
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+}

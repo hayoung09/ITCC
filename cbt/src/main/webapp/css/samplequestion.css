@@ -1,0 +1,682 @@
+@charset "UTF-8";
+
+/* 기본 설정: 페이지 전체 */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header, section {
+    background-color: rgba(77, 165, 124, 1);
+}
+
+html, body{
+
+	height : 100%;
+}
+
+.header_container {
+    display: flex;
+    align-items: center;
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo_container {
+    display: block;
+    margin: 5px 10px;
+}
+
+.logo_container a {
+    font-size: 40px;
+    font-weight: 500;
+    text-decoration: none;
+    text-align: center;
+    font-weight : bold;
+    color: rgba(255, 255, 255, 1);
+}
+
+.nav_container {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.menu_container {
+    align-content: flex-start;
+    margin-left: 10px;
+
+}
+
+.menu_container .menu, .login, .member{
+    list-style: none;
+    display: flex;
+}
+
+.cbt{
+	list-style: none;
+    display: flex;
+	align-content: flex-start;
+    margin-left: 280px;
+}
+
+.menu_title {
+    display: block;
+    margin: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+}
+
+.menu_index {
+    display: block;
+    margin: 10px 0;
+    padding: 0 15px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+}
+
+.cbt_menu{
+	display: block;
+    margin: 0 auto;
+    padding: 0 15px;
+    text-decoration: none;
+    text-size : 100px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.menu_1, .menu_2, .menu_3 {
+    display: block;
+    cursor: pointer;
+}
+
+.menu_1_content, .menu_2_content, .menu_3_content {
+    display: none;
+    list-style: none;
+    font-size: 15px;
+    position: absolute;
+    z-index: 10;
+    border-radius: 5px;
+    background-color: rgba(77, 165, 124, 1);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.4);
+}
+
+.login_container {
+    align-content: flex-end;
+    margin-right: 10px;
+    
+}
+
+.member_container {
+	align-content: flex-end;
+    margin-right: 10px;
+}
+
+.cbt_container{
+	align-content: flex-end;
+	margin-left : 200px;
+}
+
+
+
+
+
+
+
+.footer_container {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    display: block;
+    cursor: default;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(25, 25, 25, 1);
+}
+
+
+
+.footer_container .footA {
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+.footer_container .footB {
+    font-size: 15px;
+}
+
+
+.logout{
+	background-color: rgba(77, 165, 124, 1);
+    margin: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+      border: 0;
+  	background-color: transparent;
+}
+
+
+.left{
+	    width: 40%;
+        float: left;
+        box-sizing: border-box;
+        background: #8977ad;
+        height: 750px;
+        border: 1px solid #003458;
+}
+
+
+.right{
+       width: 40%;
+       float: left;
+       box-sizing: border-box;
+       background: #ece6cc;
+       height: 750px;
+       border: 1px solid #003458;
+}
+
+
+.btn_select{
+	   width: 20%;
+       float: left;
+       box-sizing: border-box;
+       background: #ece6cc;
+       height: 750px;
+       border: 1px solid #002312;
+}
+
+
+
+
+
+/* 마이페이지 css */
+.middle{
+	margin-top : 150px;
+	margin-bottom : 200px;
+}
+
+
+.wrapper {
+    min-height: 100%;
+    position: relative;
+    
+}
+
+
+
+ul, ol, li{
+    list-style: none;
+}
+a{
+    text-decoration: none; color: #333;
+}
+
+.inner{width: 1170px; margin: 0 auto; font-size: 16px;}
+
+.header{
+    width: 100%; background-color: white;
+}
+.header .inner{
+    height: 80px;display: flex; justify-content: space-between; align-items: center;
+}
+
+.header .logo a{
+    font: bold 34px '맑은 고딕';
+}
+
+/*header*/
+
+.gnb{
+    display: flex;
+}
+
+.gnb > li > a{
+    display: block; padding: 0 30px; text-align: center; line-height: 50px;
+}
+
+.gnb2{
+    display: flex;
+}
+
+.gnb2 > li > a{
+    display: block; padding: 0 60px; font: bold 18px 'inherit';
+}
+
+.visual {
+    width: 100%; height: 120px; background-color: lightblue;
+}
+.visual .inner{
+    height: 120px;display: flex; justify-content: space-between; align-items: center;
+} 
+
+/* 마이페이지 메인 화면 구성 */
+.title {text-align: center; padding: 30px;}
+
+.service .inner{display: flex; margin: 0 auto; padding: 10px;}
+.service .box{width: 300px;  height:150px; margin: 0 auto; padding: 40px; align-items: center; display: flex; background-color: whitesmoke;}
+.service .box .pic{width: 100px; text-align: left;}
+.service .box .info{padding:20px; padding-left: 50px;}
+
+.service_title{font:bold; font-size: 20px; text-align: left; font-weight: 900;}
+.info > li > a{font:bold; text-align: left; font-weight: 550;}
+.info > li >a:hover{color:blue}
+
+
+
+
+
+/* Footer */
+.footer {
+    position: relative;
+    width: 100%;
+    min-height: 200px;
+    text-align: left;
+    background-color: #222426;
+	bottom : 0;
+}
+
+.footer .nav {
+    padding: 31px 96px 0 40px;
+}
+
+.footer .nav li {
+    display: inline-block;
+    font-size : 10px;
+}
+
+.footer .nav li:after {
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 12px;
+    margin: 2px 12px 0;
+    background-color: hsla(0,0%,100%,.2)
+}
+
+.footer .nav li:last-child:after {
+    display: none
+}
+
+.footer .nav a {
+    color: rgba(248,249,250,.7);
+    letter-spacing: -.3px
+}
+
+.footer .nav a:hover {
+    color: #07f
+}
+
+.footer .nav .privacy {
+    font-weight: 700
+}
+
+.footer .nav+.nav {
+    padding: 14px 96px 13px 40px
+}
+
+.footer .address {
+    padding: 16px 96px 0 40px;
+    color: rgba(248,249,250,.3);
+    font-size: 11px;
+    line-height: 17px;
+    letter-spacing: -.3px
+}
+
+.footer .address span {
+    white-space: nowrap
+}
+
+.footer .address a {
+    color: rgba(248,249,250,.3);
+    text-decoration: underline
+}
+
+.footer .address a:hover {
+    color: #07f
+}
+
+.footer .copyright {
+    padding: 0 0 0 40px;
+    color: rgba(248,249,250,.3);
+    font-size: 11px;
+    line-height: 18px;
+    letter-spacing: -.3px
+}
+/* Footer 끝 */
+
+
+
+
+html{
+    font-size: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.board_wrap{
+    width: 1000px;
+    margin: 100px auto;
+}
+
+.board_title{
+    margin-bottom: 30px;
+}
+
+.board_title strong{
+    font-size: 3rem;
+}
+
+.board_title p{
+    margin-top: 5px;
+    font-size: 1.4rem;
+}
+
+.bt_wrap{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 0;
+}
+
+.bt_wrap a{
+    display: inline-block;
+    min-width: 80px;
+    margin-left: 10px;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 2px;
+    font-size: 1.4rem;
+}
+
+.bt_wrap a:first-child{
+    margin-left: 0;
+}
+
+.bt_wrap a.on{
+    background-color: #000;
+    color: #fff;
+}
+
+.board_list{
+    width: 100%;
+    border-top: 2px solid #000;
+}
+
+.board_list > div{
+    border-bottom: 1px solid #ddd;
+    font-size: 0;
+}
+
+.board_list > div.top{
+    border-bottom: 1px solid #999;
+}
+
+.board_list > div:last-child{
+    border-bottom: 1px solid #000;
+}
+
+.board_list > div > div{
+    display: inline-block;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.board_list > div.top > div{
+    font-weight: 600;
+}
+
+.board_list .num{
+    width: 10%;
+    
+}
+
+.board_list .title{
+    width: 60%;
+    text-align: left;
+}
+
+.board_list .top .title{
+    text-align: center;
+}
+
+.board_list .writer{
+    width: 10%;
+    
+}
+
+.board_list .date{
+    width: 10%;
+    
+}
+
+.board_list .count{
+    width: 10%;
+    
+}
+.search{
+    position: relative;
+    width: 300px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.search input{
+    width: 100%;
+    border: 1px solid #bbb;
+    border-radius: 8px;
+    padding: 10px 12px;
+    font-size: 14px;
+}
+
+.search input:active{
+    border: #000 solid 2px ;
+}
+.search img{
+    position : absolute;
+    width: 17px;
+    top: 10px;
+    right: 12px;
+    margin: 0;
+}
+.board_page{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 0; 
+}
+
+.board_page a{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    box-sizing: border-box;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    border-left: 0;
+    line-height: 100%;
+}
+
+.board_page a.bt{
+    padding-top: 10px;
+    font-size: 1.2rem;
+    letter-spacing: -1px;
+}
+
+.board_page a.num{
+    padding-top: 9px ;
+    font-size: 1.4rem;
+}
+
+.board_page a.num.on{
+    border-color: #000;
+    background: #000;
+    color: #fff;
+}
+
+.board_page a:first-child{
+    border-left: 1px solid #ddd;
+}
+.board_view{
+    width: 100%;
+    border-top: 2px solid #000;
+}
+
+.board_view .title{
+    padding: 20px 15px;
+    border-bottom: 1px dashed #ddd;
+    font-size: 2rem;
+}
+
+.board_view .info{
+    padding: 15px;
+    border-bottom: 1px solid #999;
+    font-size:0
+}
+
+.board_view .info dl{
+    position: relative;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.board_view .info dl:first-child{
+    padding-left: 0;
+}
+
+.board_view .info dl::before{
+    content: "";
+    position: absolute;
+    top: 1px;
+    left: 0;
+    display: block;
+    width: 1px;
+    height: 13px;
+    background: #ddd;
+}
+
+.board_view .info dl:first-child:before{
+    display: none;
+}
+
+.board_view .info dl dt,
+.board_view .info dl dd{
+    display: inline-block;
+    font-size: 1.4rem;
+}
+
+.board_view .info dl dt{
+    margin-left:10px ;
+    color: #777;
+}
+
+.board_view .info dl dd{
+    margin-left: 10px;
+    color: #777;
+}
+
+.board_view .cont{
+    padding: 15px;
+    border-bottom: 1px solid gainsboro;
+    line-height: 160%;
+    font-size: 1.4rem;
+}
+.board_view .commet{
+    margin-left: 18px;
+}
+.board_view .commet dl{
+    border-bottom: 1px dashed #ddd;
+}
+.board_view .commet dt{
+    margin-top: 18px;
+    margin-bottom: 10px;
+}
+.board_view .commet dd{
+    margin-bottom: 10px;
+}
+.board_view .commet img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.board_view .commet_write{
+    height: 100px;
+    position: relative;
+}
+.board_view .commet_write input{
+    width: 95%;
+    height: 100%;
+    padding: 10px 12px;
+    border-radius: 8px;
+    border: 1px solid #bbb;
+}
+.board_view .commet_write input[type="text"]::placeholder{
+        text-align: left;
+}
+.board_view .commet_write :-ms-input-placeholder{
+    text-align: left;
+}
+.board_view .commet_write input:active{
+    border: #000 solid 2px ;
+}
+
+.board_view .commet_write button img{
+    position : absolute;
+    width: 20px;
+    bottom: 10px;
+    right: 35px;
+    margin: 0;
+}
+
+.download{
+    padding: 15px;
+    border-bottom: 1px solid gainsboro;
+    font-size:0
+}
+
+.download dl{
+    position: relative;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.download dl:first-child{
+    padding-left: 0;
+}
+
+.download dl::before{
+    content: "";
+    position: absolute;
+    top: 1px;
+    left: 0;
+    display: block;
+    width: 1px;
+    height: 13px;
+    background: #ddd;
+}
+
+.download dl:first-child::before{
+    display: none;
+}
+
+.download dl dt,
+.download dl dd{
+    display: inline-block;
+    font-size: 1.4rem;
+}
+
+.download dl dt{
+    margin-left:10px ;
+    color: #777;
+}
+
+.download dl dd{
+    margin-left: 10px;
+    color: #777;
+}
