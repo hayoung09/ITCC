@@ -1,4 +1,4 @@
-# RoomMaker
+# ITCC
 CBT 모의시험,CBT에 관련된 정보를 제공해주는 웹 사이트
 <br/><br/>
 <hr>
@@ -14,136 +14,103 @@ CBT 모의시험,CBT에 관련된 정보를 제공해주는 웹 사이트
 
 ## 📖 개요
 
-➡ 카카오톡으로 자료 공유 시 기간이 지나면 받을 수 없음
+➡ CBT 시험을 처음보는 경우 제 실력을 발휘하지 못하는 경우가 있음
 
-➡ 카카오톡으로 팀원들과 프로젝트를 진행할때 파일 전송이 제한적임 
+➡ CBT 시험 공부하는데 어떻게 공부하는지 접근하기 어려움 
 
-➡ 수업 시간외에 질문 사항이 생기면 해결하는데 어려움이 있음
+➡ 시험 자료들 일일이 찾기 어려움
 <br/><br/>
 <hr>
 
-## 🌈 RoomMaker 사용시 기대효과
+## 🌈 ITCC 사용시 기대효과
 
-➡ 언제든 이전에 올린 파일을 다운로드 받을 수 있는 환경을 제공함.
+➡ 자신이 실제 시험장에서 문제를 풀어보는 것처럼 공부함으로써 자격증 공부의 효율성 증가 
 
-➡ 업로드시에 용량/파일 종류의 제한이 없도록 함
+➡ 틀린 문제, 자주 출제되는 유형을 파악하고 시험에 미리 대비가능
 
-➡ 수업시간 외에 질문 사항이 생길 시에 질문 게시판을 통해 해결가능
+➡ 모의시험 점수 그래프로 자기 실력 확인하여 합격률 상승
 
-➡ AI 챗봇 기능을 통해 질문 게시판보다 빠른 답변을 받을 수 있음
+➡ 자격증 취득으로 학생들이 커리어를 쌓는데 도움을 줄 수 있음.
+
 <br/><br/>
 <hr>
 
 ## 💻 역할
 
-➡ DB 설계 보조
+➡ DB 설계 
 
-➡ 메인 페이지 구현, 방에 들어간 페이지 구현, 방에서 화면 전환 기능, 게시판 기능 구현
+➡ CBT 모의시험, CBT 1문 1답 페이지 구현, 기출문제 모음 페이지 구현, 영상자료 페이지 구현, 마이페이지 구현
+
+
 <br/><br/>
 <hr>
 
 ## ⭐ 주요기능
 
-➡ 메인화면 - 검색, 내가 만든 방, 참여중인 방 확인 가능
+➡ CBT 모의시험, CBT 1문 1답, 시험점수 동향 그래프, 기출문제 모음, 영상자 
 
-<img src="https://github.com/hayoung09/RoomMaker/assets/162979427/c569d1ba-0807-46ca-b1db-84ba2f8ef028" width="600" height="350">
+<img src="https://github.com/hayoung09/ITCC/assets/162979427/7688de8c-37da-4af4-a3cc-7c3cde500f0e" width="600" height="350">
 <br/><br/>
 <hr>
 
-➡ 방만들기 / 방입장
+➡ CBT 1문 1답
 
-<img src="https://github.com/hayoung09/RoomMaker/assets/162979427/d14d61f8-dba0-4215-971a-3446db26ddf3" width="400" height="250">
-
-<img src="https://github.com/hayoung09/RoomMaker/assets/162979427/ea422e10-fd3d-4af4-85e4-e6243ec80133" width="400" height="250">
+<img src="https://github.com/hayoung09/ITCC/assets/162979427/04be009f-802a-4332-bdc0-090cf8db2f65" width="600" height="350">
 <br/><br/>
 <hr>
 
-➡ 방 상세 페이지 - 참여자와 방장의 화면이 다름
+
+➡ 마이페이지 - 모의시험 점수 그래프화
 
 
-| 참여자 | 방장 |
+| 시험 점수 | 시험점수 동향 |
 |-------------|-------------|
-|<img src="https://github.com/hayoung09/RoomMaker/assets/162979427/34afe3be-0263-410e-b18e-cdc57d79f3d3" width="400" height="250">|<img src="https://github.com/hayoung09/RoomMaker/assets/162979427/e27e0928-b4cf-44e2-bb90-3a57b07efde6" width="400" height="250">|
+|<img src="https://github.com/hayoung09/ITCC/assets/162979427/0d7e2e08-1e9d-4062-80fd-92c15d6f4bc5" width="400" height="250">|<img src="https://github.com/hayoung09/ITCC/assets/162979427/50ef6520-260c-44aa-ad35-70fd14d48541" width="400" height="250">|
 
-- 참여자 : 자료 공유,질문 게시판 등록/수정 가능 , 채팅, AI 질문서비스 가능
-
-- 방장 : 참여자의 모든 기능 가능, 방 수정 , 공지 등록 가능
 
 <br/><br/>
 <hr>
 
-➡ 자료 공유 게시판 등록, 다운로드
+➡ 시험 자료 공유, 다운로드
 
-| 등록 | 다운로드 |
+| 시험 자료 | 다운로드 |
 |-------------|-------------|
-|<img src="https://github.com/hayoung09/RoomMaker/assets/162979427/60578803-fcbf-484e-a046-90c3550bcc05" width="400" height="250"> | <img src="https://github.com/hayoung09/RoomMaker/assets/162979427/aad70acc-ab71-421b-84ab-2a58781652be" width="400" height="250"> |
+|<img src="https://github.com/hayoung09/ITCC/assets/162979427/eabaf04d-a4db-432d-95e2-cb9b5dbb88b3" width="400" height="250"> | <img src="https://github.com/hayoung09/ITCC/assets/162979427/db11a9e8-0217-4e53-a911-865ea9ee64d4" width="400" height="250"> |
 <br/><br/>
 <hr>
 
-➡ 공지 (방장만 등록,수정,삭제 가능)
+➡ 영상자료
 
-<img src="https://github.com/hayoung09/RoomMaker/assets/162979427/9b1c60f1-1e52-406e-966b-c2678f23f77b" width="600" height="350">
+<img src="https://github.com/hayoung09/ITCC/assets/162979427/9ade3dd1-a1c1-4b97-80ec-8d600d155217" width="600" height="350">
 <br/><br/>
 <hr>
 
 
-➡ 채팅
-
-- Web Socket을 이용하여 구현
-
-<br/>
-
-<img src="https://github.com/hayoung09/RoomMaker/assets/162979427/e2c664b5-5b1f-40f5-9560-164a54bb3de4" width="600" height="350">  
-
-<br/><br/>
-<hr>
-
-➡ 질문 게시판 - AI 챗봇
-
-- Open AI API를 통해 Chat GPT 키를 발급받아 구현
-
-<br/>
-
-<img src="https://github.com/hayoung09/RoomMaker/assets/162979427/504bce6f-01d3-4c39-b5d8-c2192666b071" width="600" height="350">  
-
-<br/><br/>
-<hr>
-
-➡ 관리자 페이지 - 회원, 방 수정/삭제
+➡ 관리자 페이지 - 문제 등록,수정,삭제 | 회원 관
 
 - 관리자 페이지
 
-<img src="https://github.com/hayoung09/RoomMaker/assets/162979427/c3258bd0-294a-4ad7-a42f-7759fe55aa5c" width="600" height="350">  
+<img src="https://github.com/hayoung09/ITCC/assets/162979427/ce09a187-dd7a-438d-a1b8-1450b87a593f" width="600" height="350">  
 
 
 <br/><br/>
-
-| 기능 | 회원 | 방 |
-|-------------|-------------|-------------|
-| 상세화면 |<img src="https://github.com/hayoung09/RoomMaker/assets/162979427/0be9c47a-c707-4a9b-9999-91a57302be97" width="400" height="250">|<img src="https://github.com/hayoung09/RoomMaker/assets/162979427/0ad5cc46-92c9-4b3e-a861-13abd10047d0" width="400" height="250">|
-| 기능 | 회원 탈퇴 | 참여 회원 탈퇴 , 공지, 자료공유, 질문 게시판 , 답변, 방 전체 삭제 |
-
-<br/><br/>
-<hr>
 
 
 ## 🔍 ERD
 
-![image](https://github.com/hayoung09/RoomMaker/assets/162979427/7059c6db-68a1-43b3-b3bd-c69d531ced5c)
+![image](https://github.com/hayoung09/ITCC/assets/162979427/aa5a52cb-8bf7-4b40-9f07-3deeb853679e)
 
 <br/><br/>
 <hr>
 
 ## 💡 이번 프로젝트를 통해 배운점
 
-➡ MVC 방식으로 개발하였으며 백엔드 코드에서도 기능별로 분류를 하니 팀원들과 역할 분배 및 코드 수정/관리가 용이했음
+➡ DB설계의 중요성을 알
 
-➡ 어노테이션 사용법
+➡  Model2 방식으로 개발하였으며 백엔드와 프론트엔드가 구분되어 코드 관리, 수정이 전보다 편리해짐
 
-➡ API 사용법에 대한 이해
+➡ servlet 쓰는 방법도 배움
 
-➡ 팀원들과 Git을 통해 코드를 공유하고 관리함으로써 Git 명령어 사용에 익숙해짐
-
-➡ Web Socket을 통해 채팅 기능을 구현하면서 소켓 통신의 개념 확립
+➡ javascript의 중요성을 알게 됨
 <br/><br/>
 <hr>
